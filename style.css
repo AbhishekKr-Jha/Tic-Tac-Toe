@@ -1,6 +1,7 @@
 .gameContainer{
 
 display: flex;
+
 justify-content: center;
 margin-top: 50px;
 }
@@ -33,6 +34,7 @@ font-size: 7vw;
 }
 .info{
     font-size: 3vw;
+    font-weight: 600;
 }
 #reset{
     border: 0px;
@@ -43,9 +45,9 @@ font-size: 7vw;
     
 }
 #reset:hover{
-    padding: 0 23px;
+
     border: 1px solid grey;
-    font-size: 2vw;
+    font-size: 1.3vw;
 }
 
 
@@ -63,3 +65,14 @@ font-size: 7vw;
 .br{
     border-right: 0;
 }
+
+
+
+
+
+@media only screen and (max-width: 650px) {
+    .gameContainer {
+    flex-direction: column;
+   align-items: center;
+    }
+  }
